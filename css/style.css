@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url("../fonts/PFAgoraSansPro-Bold.eot");
+  src: local("☺"), url("../fonts/PFAgoraSansPro-Bold.woff") format("woff"), url("../fonts/PFAgoraSansPro-Bold.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url("../fonts/PFAgoraSansPro-Light.eot");
+  src: local("☺"), url("../fonts/PFAgoraSansPro-Light.woff") format("woff"), url("../fonts/PFAgoraSansPro-Light.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url("../fonts/PFAgoraSansPro-Thin.eot");
+  src: local("☺"), url("../fonts/PFAgoraSansPro-Thin.woff") format("woff"), url("../fonts/PFAgoraSansPro-Thin.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Thin.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Agora Sans Pro";
+  src: url("../fonts/PFAgoraSansPro-Regular.eot");
+  src: local("☺"), url("../fonts/PFAgoraSansPro-Regular.woff") format("woff"), url("../fonts/PFAgoraSansPro-Regular.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "PF Agora Sans Pro";
+  color: #100f0d;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}

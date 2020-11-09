@@ -1,0 +1,61 @@
+@font-face {
+   font-family: "PF Agora Sans Pro";
+   src: url("../fonts/PFAgoraSansPro-Bold.eot");
+   src: local("☺"), url("../fonts/PFAgoraSansPro-Bold.woff") format("woff"),
+      url("../fonts/PFAgoraSansPro-Bold.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Bold.svg") format("svg");
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "PF Agora Sans Pro";
+   src: url("../fonts/PFAgoraSansPro-Light.eot");
+   src: local("☺"), url("../fonts/PFAgoraSansPro-Light.woff") format("woff"),
+      url("../fonts/PFAgoraSansPro-Light.ttf") format("truetype"),
+      url("../fonts/PFAgoraSansPro-Light.svg") format("svg");
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: "PF Agora Sans Pro";
+   src: url("../fonts/PFAgoraSansPro-Thin.eot");
+   src: local("☺"), url("../fonts/PFAgoraSansPro-Thin.woff") format("woff"),
+      url("../fonts/PFAgoraSansPro-Thin.ttf") format("truetype"), url("../fonts/PFAgoraSansPro-Thin.svg") format("svg");
+   font-weight: 100;
+   font-style: normal;
+}
+@font-face {
+   font-family: "PF Agora Sans Pro";
+   src: url("../fonts/PFAgoraSansPro-Regular.eot");
+   src: local("☺"), url("../fonts/PFAgoraSansPro-Regular.woff") format("woff"),
+      url("../fonts/PFAgoraSansPro-Regular.ttf") format("truetype"),
+      url("../fonts/PFAgoraSansPro-Regular.svg") format("svg");
+   font-weight: 400;
+   font-style: normal;
+}
+
+@import "_nullstyle";
+
+$sz_1: 71px;
+$sz_2: 44px;
+$sz_3: 31px;
+$sz_4: 24px;
+$sz_5: 19px;
+$sz_6: 18px;
+
+$color_1: #100f0d;
+$color_2: #bebdbb;
+$color_3: #4f4f51;
+$color_4: #ffffff;
+$color_5: #656263;
+$color_6: #adabaa;
+$color_7: #562b48;
+
+body {
+   font-family: "PF Agora Sans Pro";
+   color: $color_1;
+   font-size: $sz_4;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+}
