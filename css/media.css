@@ -27,4 +27,10 @@
   .about-fond__left {
     font-size: 48px;
   }
+  .container {
+    max-width: 980px;
+  }
+  .header__text {
+    font-size: 18px;
+  }
 }
