@@ -1,1 +1,11 @@
-/* No CSS */
+@media (max-width: 1200px) {
+  .header__logo-title img {
+    width: 470px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__logo-title img {
+    width: 270px;
+  }
+}
