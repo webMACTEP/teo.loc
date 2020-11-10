@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 1200px) {
+  .footer__title img {
+    width: 470px;
+  }
   .header__logo-title img {
     width: 470px;
   }
