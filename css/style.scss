@@ -263,12 +263,12 @@ body {
       font-weight: 300;
       color: $color_baa;
       padding-top: 30px;
-      margin-bottom: 75px;
    }
 
    &__blok {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      flex-wrap: wrap;
    }
 
    &__item {
@@ -281,6 +281,7 @@ body {
       font-weight: 700;
       color: $color_263;
       text-align: left;
+      margin-top: 75px;
    }
 
    &__item-text {
@@ -292,7 +293,8 @@ body {
       text-align: left;
    }
 
-   &__item-img {
+   &__item-img img {
+      max-width: 520px;
    }
    &__bg {
       position: absolute;
