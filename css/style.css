@@ -300,3 +300,28 @@ body {
   font-weight: 100;
   margin-bottom: 40px;
 }
+
+.about-fond__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 75px;
+}
+
+.about-fond__left {
+  width: 50%;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 71px;
+  font-weight: 300;
+  color: #adabaa;
+  padding: 20px;
+}
+
+.about-fond__right {
+  width: 50%;
+  padding: 20px;
+  margin-top: 20px;
+}

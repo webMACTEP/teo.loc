@@ -213,3 +213,25 @@ body {
       margin-bottom: 40px;
    }
 }
+.about-fond {
+   &__row {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 75px;
+   }
+   &__left {
+      width: 50%;
+      text-transform: uppercase;
+      text-align: right;
+      font-size: $sz_71;
+      font-weight: 300;
+      color: $color_baa;
+      padding: 20px;
+   }
+
+   &__right {
+      width: 50%;
+      padding: 20px;
+      margin-top: 20px;
+   }
+}
