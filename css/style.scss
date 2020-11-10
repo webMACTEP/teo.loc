@@ -185,3 +185,31 @@ body {
       background-size: cover;
    }
 }
+.proects {
+   text-align: center;
+
+   &__title {
+      text-transform: uppercase;
+      font-size: $sz_71;
+      font-weight: 300;
+      color: $color_baa;
+      margin-top: 50px;
+   }
+   &__items {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 75px;
+   }
+
+   &__item {
+   }
+
+   &__item-title {
+      text-transform: uppercase;
+      font-size: $sz_44;
+      color: $color_f0d;
+      font-weight: 100;
+      margin-bottom: 40px;
+   }
+}
