@@ -118,6 +118,11 @@ body {
    margin-top: -56px;
    display: flex;
    align-items: flex-end;
+   background-image: url("../img/intro-img.png");
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+
    & video {
       position: absolute;
       top: 1px;

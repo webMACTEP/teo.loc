@@ -192,6 +192,10 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  background-image: url("../img/intro-img.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .intro video {
