@@ -310,7 +310,7 @@ body {
 
 .about-fond {
   position: relative;
-  height: 450px;
+  height: 455px;
 }
 
 .about-fond__row {
@@ -345,6 +345,63 @@ body {
   width: 100%;
   height: 160px;
   background-image: url("../img/about-fond-bg.svg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news {
+  background-color: #d6f1f5;
+  text-align: center;
+  position: relative;
+}
+
+.news__title {
+  text-transform: uppercase;
+  font-size: 71px;
+  font-weight: 300;
+  color: #adabaa;
+  padding-top: 30px;
+  margin-bottom: 75px;
+}
+
+.news__blok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news__item {
+  max-width: 520px;
+}
+
+.news__item-title {
+  text-transform: uppercase;
+  font-size: 31px;
+  font-weight: 700;
+  color: #656263;
+  text-align: left;
+}
+
+.news__item-text {
+  font-size: 31px;
+  color: #100f0d;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.news__bg {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  height: 139px;
+  background-image: url("../img/news-bg.svg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
