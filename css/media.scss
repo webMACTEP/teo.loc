@@ -1,15 +1,33 @@
+@media (max-width: 1400px) {
+   .about-fond__left {
+      font-size: 62px;
+   }
+}
 @media (max-width: 1200px) {
    .header {
       &__logo-title img {
          width: 470px;
       }
    }
+   .about-fond__left {
+      font-size: 60px;
+   }
 }
 @media (max-width: 992px) {
+   .about__title,
+   .proects__title {
+      font-size: 50px;
+   }
+   .about-fond__right {
+      font-size: 20px;
+   }
    .header {
       &__logo-title img {
          width: 270px;
       }
+   }
+   .about-fond__left {
+      font-size: 48px;
    }
 }
 @media (max-width: 768px) {

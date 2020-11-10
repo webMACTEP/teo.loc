@@ -199,10 +199,10 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      margin-top: 75px;
    }
 
    &__item {
+      margin-top: 75px;
    }
 
    &__item-title {
@@ -214,6 +214,8 @@ body {
    }
 }
 .about-fond {
+   position: relative;
+   height: 450px;
    &__row {
       display: flex;
       justify-content: space-around;
@@ -228,10 +230,20 @@ body {
       color: $color_baa;
       padding: 20px;
    }
-
    &__right {
       width: 50%;
       padding: 20px;
       margin-top: 20px;
+   }
+   &__bg {
+      position: absolute;
+      bottom: 0;
+      z-index: 3;
+      width: 100%;
+      height: 160px;
+      background-image: url("../img/about-fond-bg.svg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
    }
 }
