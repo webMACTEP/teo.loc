@@ -486,6 +486,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
+  padding-bottom: 60px;
 }
 
 .footer__row {
@@ -501,7 +502,7 @@ body {
 }
 
 .footer__logo {
-  margin-bottom: -25px;
+  margin-bottom: -85px;
 }
 
 .footer__social {
