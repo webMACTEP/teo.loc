@@ -375,7 +375,8 @@ body {
 }
 
 .news__item {
-  max-width: 520px;
+  width: 33%;
+  padding: 10px;
 }
 
 .news__item-title {
@@ -397,7 +398,7 @@ body {
 }
 
 .news__item-img img {
-  max-width: 520px;
+  width: 100%;
 }
 
 .news__bg {
