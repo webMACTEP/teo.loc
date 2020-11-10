@@ -302,10 +302,51 @@ body {
       bottom: 0;
       z-index: 3;
       width: 100%;
-      height: 139px;
+      height: 160px;
       background-image: url("../img/news-bg.svg");
       background-position: center top;
       background-repeat: no-repeat;
       background-size: cover;
+   }
+}
+.media {
+   background-color: #fbfbc3;
+   padding-bottom: 160px;
+
+   &__title {
+      text-transform: uppercase;
+      font-size: $sz_71;
+      font-weight: 300;
+      color: $color_baa;
+      padding-top: 30px;
+   }
+
+   &__row {
+      position: relative;
+      max-width: 1120px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+   }
+
+   &__text-blok {
+      padding: 80px 100px 150px 80px;
+      margin-right: 140px;
+      border: 1px solid #c6c29b;
+      margin-top: 65px;
+   }
+
+   &__text-title {
+   }
+
+   &__item {
+      font-size: $sz_18;
+      max-width: 380px;
+   }
+
+   &__player {
+      position: absolute;
+      right: 0;
+      top: 220px;
    }
 }
