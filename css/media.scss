@@ -17,6 +17,9 @@
    }
 }
 @media (max-width: 992px) {
+   .header__text {
+      max-width: 190px;
+   }
    .footer__social img {
       height: 20px;
    }
