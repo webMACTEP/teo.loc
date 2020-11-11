@@ -17,6 +17,24 @@
    }
 }
 @media (max-width: 992px) {
+   .footer__social img {
+      height: 20px;
+   }
+
+   .media__item {
+      max-width: 270px;
+   }
+   .news__item-title {
+      font-size: 17px;
+   }
+   .news__item-text {
+      font-size: 14px;
+   }
+
+   .footer__title img {
+      width: 370px;
+   }
+
    .about__title,
    .proects__title {
       font-size: 50px;
